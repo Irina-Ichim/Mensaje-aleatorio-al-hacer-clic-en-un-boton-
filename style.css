@@ -38,7 +38,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -280px;
+   margin-top: -100px;
     margin-left: 800px;
 
 
@@ -53,6 +53,12 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
 }
+p{
+    font-style: italic;
+    font-size: medium;
+    color: #fff;
+    margin-top: -100px;
+}
 .displayMensajes{
     display: flex;
     flex-direction: row;
@@ -60,9 +66,9 @@ nav ul li a{
 }
 button{
     position: relative;
+    margin-top: -200px;
     height: 60px;
     width:150px;
-    margin: 0 35px;
     border-radius: 50px;
     border:none;
     outline: none;
@@ -71,6 +77,7 @@ button{
     font-size: 16px;
     letter-spacing: 2px;
     cursor: pointer;
+    
 }
 button:first-child{
     background:linear-gradient(90deg,#03a9f4, #f441a5, #ffeb3b, #03a9f4 );
@@ -107,7 +114,7 @@ button:hover{
     }
 }
 .btn{
-    width: 160px;
+    width: 200px;
     height: 50px;
     border: transparent;
     color:rgb(255, 255, 255);
@@ -116,4 +123,19 @@ button:hover{
     justify-content: center;
     align-items: center;
     font-size: small;
+    margin-top: -200px;
+    margin-left: 8px;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+    
+}
+
