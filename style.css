@@ -8,8 +8,13 @@ html,body{
     display: grid;
     place-items: center;
     height: 100%;
-    background: #000;
     overflow: hidden;
+    background: #111;
+}
+.displayMensajes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 button{
     position: relative;
@@ -58,4 +63,15 @@ button:hover{
     100%{
         background-position: 400%;
     }
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    border: transparent;
+    color:rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }
