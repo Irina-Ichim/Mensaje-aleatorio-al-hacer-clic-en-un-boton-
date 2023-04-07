@@ -11,6 +11,29 @@ html,body{
     overflow: hidden;
     background: #111;
 }
+h2{
+ font-size: 3em;
+ color :#222;
+}
+h2::before{
+    content: attr(data-text);
+    position:absolute;
+    color: #fff;
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff;
+    animation: animate 5s linear infinite;
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 20px #fff);
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
 .displayMensajes{
     display: flex;
     flex-direction: row;
